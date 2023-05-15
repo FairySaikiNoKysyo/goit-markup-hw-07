@@ -100,7 +100,8 @@ img {
 /* main classes-start */
 .container {
   min-width: 320px;
-  max-width: 396px;
+   max-width: 396px; 
+  
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
@@ -363,7 +364,7 @@ img {
   letter-spacing: 0.02em;
 
   margin-bottom: 72px;
-  max-width: 496px;
+  
   margin-left: auto;
   margin-right: auto;
   
@@ -374,11 +375,13 @@ img {
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 36px;
+    max-width: 496px;
   }
 }
 @media only screen and (min-width: 1158px) {
   .hero-title {
     margin-bottom: 48px;
+
   }
 }
 .hero-button {
@@ -451,7 +454,13 @@ img {
 .we-are-h,
 .team-h {
   margin-bottom: 8px;
-  text-align: center;
+   text-align: center; 
+}
+@media only screen and (min-width: 768px) {
+   .we-are-h{
+    text-align: start;
+    
+  }
 }
 .main-heading-we-are{
   font-weight: 700;
