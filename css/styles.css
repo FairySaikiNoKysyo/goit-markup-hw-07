@@ -158,13 +158,12 @@ img {
   }
 }
 /* p text  */
-.portfolio-text{
+.portfolio-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
-
 }
 .section-text {
   font-weight: 500;
@@ -494,7 +493,7 @@ img {
     width: calc((100% - 3 * 24px) / 4);
   }
 }
-.card-h{
+.card-h {
   margin-bottom: 8px;
 }
 .we-are-h,
@@ -754,15 +753,13 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    justify-content:flex-start;
-     width: 582px; 
-
+    justify-content: flex-start;
+    width: 582px;
   }
 }
 @media only screen and (min-width: 1158px) {
-  .footer-container{
-     width:1158px; 
-    
+  .footer-container {
+    width: 1158px;
   }
 }
 
@@ -792,7 +789,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .social-media-container {
     margin-right: 80px;
-    margin-bottom: 0;;
+    margin-bottom: 0;
   }
 }
 .social-media-heading {
