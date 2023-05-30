@@ -1455,19 +1455,35 @@ img {
   margin: 0;
   list-style: none;
   margin-bottom: auto;
+  max-width: 151px;
+  max-height: 200px;
+  padding-top: 32px;
 }
+
 .mobile-menu-links {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 1.11;
 
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
 }
+@media only screen and (min-width: 428px) {
+   .mobile-menu-links{
+    font-size: 36px;
+    
+  }
+}
+.mobile-menu-active{
+  color: var(--hover-txt-color);
+}
 .mobile-menu-links:hover,
 .mobile-menu-links:focus {
   color: var(--hover-txt-color);
 }
+/* .mobile-menu-item{
+  
+} */
 .mobile-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -1496,7 +1512,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.11;
-  color: var(--main-txt-cl);
+  color: var(--focused-txt-cl);
 
   letter-spacing: 0.02em;
   margin-bottom: 40px;
