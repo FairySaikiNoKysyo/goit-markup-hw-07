@@ -98,9 +98,9 @@ img {
 }
 
 /* main classes-start */
-.container {
+/* .container {
   min-width: 320px;
-  /* max-width: 396px; */
+  
 
   margin-left: auto;
   margin-right: auto;
@@ -121,7 +121,7 @@ img {
   .container {
     max-width: 1158px;
   }
-}
+} */
 
 .section {
   padding-bottom: 96px;
@@ -741,7 +741,7 @@ img {
   display: block;
   margin-bottom: 16px;
 }
-.footer-container {
+/* .footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -761,7 +761,7 @@ img {
   .footer-container {
     width: 1158px;
   }
-}
+} */
 
 .footer-content-container {
   margin-bottom: 72px;
